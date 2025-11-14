@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl";
 import { useLicenseStatusContext } from "@app/hooks/useLicenseStatusContext";
 import { useSubscriptionStatusContext } from "@app/hooks/useSubscriptionStatusContext";
 
-export function SecurityFeaturesAlert() {
+export function LicenseOrSubscriptionRequiredAlert() {
     const t = useTranslations();
     const { isUnlocked } = useLicenseStatusContext();
     const subscriptionStatus = useSubscriptionStatusContext();

@@ -50,7 +50,7 @@ import { useUserContext } from "@app/hooks/useUserContext";
 import { useTranslations } from "next-intl";
 import { build } from "@server/build";
 import { SwitchInput } from "@app/components/SwitchInput";
-import { SecurityFeaturesAlert } from "@app/components/SecurityFeaturesAlert";
+import { LicenseOrSubscriptionRequiredAlert } from "@app/components/SecurityFeaturesAlert";
 import { useLicenseStatusContext } from "@app/hooks/useLicenseStatusContext";
 import { useSubscriptionStatusContext } from "@app/hooks/useSubscriptionStatusContext";
 
@@ -440,7 +440,7 @@ export default function GeneralPage() {
 
                                 {build != "oss" && (
                                     <>
-                                        <SecurityFeaturesAlert />
+                                        <LicenseOrSubscriptionRequiredAlert />
 
                                         <FormField
                                             control={form.control}
@@ -600,7 +600,7 @@ export default function GeneralPage() {
                             </SettingsSectionHeader>
                             <SettingsSectionBody>
                                 <SettingsSectionForm>
-                                <SecurityFeaturesAlert />
+                                <LicenseOrSubscriptionRequiredAlert />
                                     <FormField
                                         control={form.control}
                                         name="requireTwoFactor"
