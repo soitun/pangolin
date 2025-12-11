@@ -2067,6 +2067,8 @@
     "timestamp": "Horodatage",
     "accessLogs": "Journaux d'accès",
     "exportCsv": "Exporter CSV",
+    "exportError": "Unknown error when exporting CSV",
+    "exportCsvTooltip": "Within Time Range",
     "actorId": "ID de l'acteur",
     "allowedByRule": "Autorisé par la règle",
     "allowedNoAuth": "Aucune authentification autorisée",
