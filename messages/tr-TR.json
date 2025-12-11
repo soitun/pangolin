@@ -2067,6 +2067,8 @@
     "timestamp": "Zaman damgası",
     "accessLogs": "Erişim Günlükleri",
     "exportCsv": "CSV Dışa Aktar",
+    "exportError": "Unknown error when exporting CSV",
+    "exportCsvTooltip": "Within Time Range",
     "actorId": "Aktör Kimliği",
     "allowedByRule": "Kurallara Göre İzin Verildi",
     "allowedNoAuth": "Kimlik Doğrulama Yok İzin Verildi",
