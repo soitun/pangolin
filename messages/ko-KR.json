@@ -2067,6 +2067,8 @@
     "timestamp": "타임스탬프",
     "accessLogs": "접근 로그",
     "exportCsv": "CSV 내보내기",
+    "exportError": "Unknown error when exporting CSV",
+    "exportCsvTooltip": "Within Time Range",
     "actorId": "행위자 ID",
     "allowedByRule": "룰에 의해 허용됨",
     "allowedNoAuth": "인증 없음 허용됨",
